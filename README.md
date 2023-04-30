@@ -30,7 +30,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 
-<img src="https://github.com/ElwoodMattHowell/images/blob/main/install-configure-iis.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/ElwoodMattHowell/images/blob/main/install-configure-iis.png" height="80%" width="80%" alt="install / configure iis"/>
 
 
 Our first step is to enable Internet Information Services(IIS) with Common Gateway Interface(CGI).  IIS is a general-purpose web server that runs on Windows.  The CGI element configures default settings for CGI applications on IIS.  To enable, first open the Control Panel and click on _Programs_.  Under _Programs and Features_ click _Turn Windows features on or off_.  Scroll down until you find _Internet Information Services_.  Check the box and then expand IIS by clicking the '+' sign to the left of the box.  Inside IIS, scroll to _World Wide Web Services_, and expand that.  Finally, expand _Application Development Features_, scroll to _CGI_, check the box next to CGI, and click _Okay_.  Once it has finished loading, Internet Information Services and Common Gateway Interface will be enabled.  If you open a web browser and type 127.0.0.1 in the browser, you should now see the home page for Internet Information Services.
@@ -38,7 +38,7 @@ Our first step is to enable Internet Information Services(IIS) with Common Gatew
 <br />
 
 
-<img src="https://github.com/ElwoodMattHowell/images/blob/main/install-rewrite-module.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<span><img src="https://github.com/ElwoodMattHowell/images/blob/main/install-rewrite-module.png" height="50%" width="50%" alt="Install rewrite module"/><img src="https://github.com/ElwoodMattHowell/images/blob/main/install-php-manager.png" height="80%" width="80%" alt="Install PHP manager"/></span>
 
 
 Download the appropriate version of _PHP Manager_ from https://github.com/phpmanager/phpmanager/releases and install.  Next, download the _Rewrite Module_ from https://www.iis.net/downloads/microsoft/url-rewrite and install.  _PHP Manager_ allows you to install, run, and manage PHP versions on a Windows server running the IIS webserver.  The _ISS URL Rewrite Module_ is a tool used to convert complex web addresses into consistent, memorable, URL's. 
@@ -48,5 +48,5 @@ Download the appropriate version of _PHP Manager_ from https://github.com/phpman
 <img src="https://github.com/ElwoodMattHowell/images/blob/main/images_icons" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
-Next we will install PHP.  Go to https://windows.php.net/download#php-8.2.  Download and install the appropriate zip file.  For Windows that will be VS16 x64 Thread Safe
+Next we will install _PHP_.  First navigate to the root of the C drive and create a PHP folder.  Next, go to https://windows.php.net/download#php-8.2.  Download and install the appropriate zip file.  For Windows that will most likely be _VS16 x64 Thread Safe_.  Once the zip file is downloaded, extract the file to the PHP folder you just created.  _PHP_ is a server side scripting language that osTicket uses to serve up the web pages that provide the user interface. 
 <br />
