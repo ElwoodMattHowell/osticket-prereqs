@@ -43,15 +43,17 @@ Our first step is to enable Internet Information Services(IIS) with Common Gatew
 </p>
 
 
-
-
-
 Download the appropriate version of _PHP Manager_ from https://github.com/phpmanager/phpmanager/releases and install.  Next, download the _Rewrite Module_ from https://www.iis.net/downloads/microsoft/url-rewrite and install.  _PHP Manager_ allows you to install, run, and manage PHP versions on a Windows server running the IIS webserver.  The _ISS URL Rewrite Module_ is a tool used to convert complex web addresses into consistent, memorable, URL's. 
 <br />
 
-
-<img src="https://github.com/ElwoodMattHowell/images/blob/main/images_icons" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/ElwoodMattHowell/images/blob/main/install-php.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 Next we will install _PHP_.  First navigate to the root of the C drive and create a PHP folder.  Next, go to https://windows.php.net/download#php-8.2.  Download and install the appropriate zip file.  For Windows that will most likely be _VS16 x64 Thread Safe_.  Once the zip file is downloaded, extract the file to the PHP folder you just created.  _PHP_ is a server side scripting language that osTicket uses to serve up the web pages that provide the user interface. 
+<br />
+
+<img src="https://github.com/ElwoodMattHowell/images/blob/main/install-mysql.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+
+
+Now we need to download and install MySQL.  OsTicket will use MySQL in cunjunction with HeidiSQL to create and access a database.  Navigate to https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view and download MySQL.  Typical Installation / finish / Standard Configuration / defaults / password / Execute /
 <br />
