@@ -37,8 +37,13 @@ Our first step is to enable Internet Information Services(IIS) with Common Gatew
 
 <br />
 
+<p float="left">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/install-php-manager.png" height="40%" width="40%" alt="Install PHP manager">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/install-rewrite-module.png" height="40%" width="40%" alt="Install rewrite module">
+</p>
 
-<span><img src="https://github.com/ElwoodMattHowell/images/blob/main/install-rewrite-module.png" height="50%" width="50%" alt="Install rewrite module"/><img src="https://github.com/ElwoodMattHowell/images/blob/main/install-php-manager.png" height="80%" width="80%" alt="Install PHP manager"/></span>
+
+
 
 
 Download the appropriate version of _PHP Manager_ from https://github.com/phpmanager/phpmanager/releases and install.  Next, download the _Rewrite Module_ from https://www.iis.net/downloads/microsoft/url-rewrite and install.  _PHP Manager_ allows you to install, run, and manage PHP versions on a Windows server running the IIS webserver.  The _ISS URL Rewrite Module_ is a tool used to convert complex web addresses into consistent, memorable, URL's. 
