@@ -64,5 +64,14 @@ The next step will involve downloading and installing Microsoft Visual C++ Resdi
 </p>
 
 
-Now we have to register PHP from within IIS.  To do this we must open IIs as an administrator.  In the search panel type IIS and right click on _Internet Information Services_.  Click _Run as administrator_.  Once IIS has opened, click on _PHP Manager_.  Click on _Register new PHP version_.  You will be prompted to enter the file path to php-cgi.exe.  Provided you have followed the previous steps, the example path given will be the correct path.  You may also browse for the file.  When the correct file path is entered, click _OK_.  Under _connections_, double click on your computer name and in the _Manage Server_ panel to the right, click _restart_. 
+Now we have to register PHP from within IIS.  To do this we must open IIs as an administrator.  In the search panel type IIS and right click on _Internet Information Services_.  Click _Run as administrator_.  Once IIS has opened, click on _PHP Manager_.  Click on _Register new PHP version_.  You will be prompted to enter the file path to php-cgi.exe.  Provided you have followed the previous steps, the example path given will be the correct path.  You may also browse for the file.  When the correct file path is entered, click _OK_.  Under the _connections_ panel to the left of the screen, double click on your computer name and in the _Manage Server_ panel to the right, click _restart_. 
+<br />
+
+<p float="left">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/register-php-1.png" height="40%" width="35%" alt="Register PHP">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/register-php-2.png" height="40%" width="45%" alt="Register PHP">
+</p>
+
+
+It is now time to download and install osTicket.  
 <br />
