@@ -103,6 +103,14 @@ Now that osTicket is installed, we have to rename osTicket\include\ost-samplecon
 <img src="https://github.com/ElwoodMattHowell/images/blob/main/osTicket-setup.png" height="40%" width="40%" alt="ost configure permissions">
 
 
+Next we will return to osTicket and continue to set it up.  At the bottom of the first page click _Continue_.  On the next page, you can choose a name for your Helpdesk and enter a default email(this address will recieve emails from customers).  Next fill out the Admin User information keeping track of the email, username, and password entered.  Pause at Database settings.
+<br />
 
-Next we will return to osTicket and continue to set it up.  
+<p float="left">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/HeidiSQL-setup1.png" height="40%" width="40%" alt="ost configure permissions">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/HeidiSQL-setup.png" height="40%" width="40%" alt="ost configure permissions">
+</p>
+
+
+At this point we will install HeidiSQL.  HeidiSQL will allow us to see and edit data and structures from our MySQL database.  Click the following link to install https://www.heidisql.com/download.php?download=installer.  Once it has been downloaded, click the file to install and follow through with the default settings.  After installation, HeidiSQL should open automatically.  In the bottom right corner click _New_.  In the password field, enter the password you used for MySQL and press _Enter_.  Right click on _Unnamed_ in the left panel and click _Create New_, _Database_.  Name the database osTicket and click _OK_. 
 <br />
