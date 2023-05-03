@@ -73,5 +73,5 @@ Now we have to register PHP from within IIS.  To do this we must open IIs as an 
 </p>
 
 
-It is now time to download and install osTicket.  Go to https://osticket.com/download/, choose the most recent version of OsTicket and follow the steps to download.  At this point, do not add any of the plugins.  Once osTicket is downloaded, unzip the contents.  There should be two folders; scripts and upload.  Copy the upload folder to c:\inetpub\wwwroot and within c:\inetpub\wwwroot rename the upload folder to osTicket.
+It is now time to download and install osTicket.  Go to https://osticket.com/download/, choose the most recent version of OsTicket and follow the steps to download.  At this point, do not add any of the plugins.  Once osTicket is downloaded, unzip the contents.  There should be two folders; scripts and upload.  Copy the upload folder to c:\inetpub\wwwroot and within c:\inetpub\wwwroot rename the upload folder to osTicket.  Now, reopen IIS, and again restart the server in the _Manage Server_ panel to the right.  Open _Sites -> Default Web Site -> osTicket_, click on _osTicket_ and click _Browse *.80(http)_ in the panel to the right.  This should open the osTicket installer web page in your browser. 
 <br />
