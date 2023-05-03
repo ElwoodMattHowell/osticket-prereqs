@@ -100,15 +100,15 @@ Now that osTicket is installed, we have to rename osTicket\include\ost-samplecon
 <br />
 
 
-<img src="https://github.com/ElwoodMattHowell/images/blob/main/osTicket-setup.png" height="40%" width="40%" alt="ost configure permissions">
+<img src="https://github.com/ElwoodMattHowell/images/blob/main/osTicket-setup.png" height="40%" width="40%" alt="osTicket setup">
 
 
 Next we will return to osTicket and continue to set it up.  At the bottom of the first page click _Continue_.  On the next page, you can choose a name for your Helpdesk and enter a default email(this address will recieve emails from customers).  Next fill out the Admin User information keeping track of the email, username, and password entered.  Pause at Database settings.
 <br />
 
 <p float="left">
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/HeidiSQL-setup1.png" height="40%" width="40%" alt="ost configure permissions">
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/HeidiSQL-setup.png" height="40%" width="40%" alt="ost configure permissions">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/HeidiSQL-setup1.png" height="40%" width="40%" alt="HeidiSQL install">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/HeidiSQL-setup.png" height="40%" width="40%" alt="\HeidiSQL install">
 </p>
 
 
@@ -117,8 +117,8 @@ At this point we will install HeidiSQL.  HeidiSQL will allow us to see and edit 
 
 
 <p float="left">
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/osTicket-database.png" height="40%" width="40%" alt="ost configure permissions">
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/osTicket-complete.png" height="40%" width="40%" alt="ost configure permissions">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/osTicket-database.png" height="40%" width="35%" alt="osTicket final setup">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/osTicket-complete.png" height="40%" width="45%" alt="osTicket final setup">
 </p>
 
 
