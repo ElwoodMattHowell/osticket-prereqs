@@ -71,8 +71,8 @@ Now we have to register PHP from within IIS.  To do this we must open IIs as an 
 <br />
 
 <p float="left">
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/osTicket-install-1.png" height="40%" width="40%" alt="Register PHP">
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/osTicket-installer.png" height="40%" width="40%" alt="Register PHP">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/osTicket-install-1.png" height="40%" width="45%" alt="Register PHP">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/osTicket-installer.png" height="40%" width="35%" alt="Register PHP">
 </p>
 
 
@@ -80,8 +80,8 @@ It is now time to download and install osTicket.  Go to https://osticket.com/dow
 <br />
 
 <p float="left">
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/ost-config-permissions-1.png" height="40%" width="35%" alt="ost configure permissions">
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/ost-config-permissions.png" height="40%" width="45%" alt="ost configure permissions">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/ost-config-permissions-1.png" height="40%" width="40%" alt="ost configure permissions">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/ost-config-permissions.png" height="40%" width="40%" alt="ost configure permissions">
 </p>
 
 
