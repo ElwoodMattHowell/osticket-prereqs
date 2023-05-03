@@ -98,3 +98,11 @@ Note that some extensions in osTicket are not enabled.  Go back to IIS, click th
 
 Now that osTicket is installed, we have to rename osTicket\include\ost-sampleconfig.php to osTicket\include\ost-config.php and assign permissions to the file.  Navigate to `C:\inetpub\www.root\osTicket\include`, scroll down to the bottom and rename ost-sampleconfig.php to ost-config.php.  Next, right click on the file and click _Properties_, click through to _Security_, and click _Advanced_.  Click _Disable inheritance_ and _Remove all inherited permissions from this object_.  Then click _Add_ and _Select a principal_.  In the box _Enter the object name to select_, type everyone and click _Check Names_.  Click _OK_, and under _Basic Permissions_, check _Full control_.  Click _OK_, _Apply_, _OK_.
 <br />
+
+
+<img src="https://github.com/ElwoodMattHowell/images/blob/main/osTicket-setup.png" height="40%" width="40%" alt="ost configure permissions">
+
+
+
+Next we will return to osTicket and continue to set it up.  
+<br />
