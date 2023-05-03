@@ -57,3 +57,9 @@ Next we will install _PHP_.  First navigate to the root of the C drive and creat
 
 The next step will involve downloading and installing Microsoft Visual C++ Resdistributable(vc_redist) and MySQL.  We can quickly install vc_redist by clicking on this link and installing the file https://aka.ms/vs/17/release/vc_redist.x86.exe.  The Visual C++ Redistributable installs Microsoft C and C++ (MSVC) runtime libraries. These libraries are required by many applications built by using Microsoft C and C++ tools.  Now we need to download and install MySQL.  OsTicket will use MySQL in conjunction with HeidiSQL to create and access a database.  Navigate to https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view and download MySQL.  Once MySQL is finished downloading, open the file and follow the prompts for _Typical Installation_ and click _Finish_.  We will now be promted to configure MySQL.  Proceed with the standard configuration.  Enter your choice of a password and make note, you will need it later.  Once you have entered the password click _Execute_.  Once MySQL has completed processing the configuration, click _Finish_.
 <br />
+
+<img src="https://github.com/ElwoodMattHowell/images/blob/main/install-mysql.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+
+
+Now we have to register PHP from within IIS.  To do this we must open IIs as an administrator.  In the search panel type IIS and right click on _Internet Information Services_.  Click _Run as administrator_.  Once IIS has opened, click on _PHP Manager_.  Click on _Register new PHP version_.  
+<br />
