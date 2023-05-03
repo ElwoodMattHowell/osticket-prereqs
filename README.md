@@ -71,8 +71,8 @@ Now we have to register PHP from within IIS.  To do this we must open IIs as an 
 <br />
 
 <p float="left">
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/osTicket-install-1.png" height="40%" width="45%" alt="Register PHP">
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/osTicket-installer.png" height="40%" width="35%" alt="Register PHP">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/osTicket-install-1.png" height="40%" width="40%" alt="Register PHP">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/osTicket-installer.png" height="40%" width="40%" alt="Register PHP">
 </p>
 
 
@@ -80,10 +80,10 @@ It is now time to download and install osTicket.  Go to https://osticket.com/dow
 <br />
 
 <p float="left">
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/ost-config-permissions-1.png" height="40%" width="45%" alt="ost configure permissions">
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/ost-config-permissions.png" height="40%" width="35%" alt="ost configure permissions">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/ost-config-permissions-1.png" height="40%" width="35%" alt="ost configure permissions">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/ost-config-permissions.png" height="40%" width="45%" alt="ost configure permissions">
 </p>
 
 
-Now that osTicket is installed, we have to rename osTicket\include\ost-sampleconfig.php to osTicket\include\ost-config.php and assign permissions to the file.  Navigate to C:\inetpub\www.root\osTicket\include\, scroll down to the bottom and rename ost-sampleconfig.php to ost-config.php.  Next, right click on the file and click _Properties_, click through to _Security_, and click _Advanced_.  Click _Disable inheritance_ and _Remove all inherited permissions from this object_.  Then click _Add_ and _Select a principal_.  In the box _Enter the object name to select_, type everyone and click _Check Names_.  Click _OK_, and under _Basic Permissions_, check _Full control_.  Click _OK_, _Apply_, _OK_.
+Now that osTicket is installed, we have to rename osTicket\include\ost-sampleconfig.php to osTicket\include\ost-config.php and assign permissions to the file.  Navigate to `C:\inetpub\www.root\osTicket\include`, scroll down to the bottom and rename ost-sampleconfig.php to ost-config.php.  Next, right click on the file and click _Properties_, click through to _Security_, and click _Advanced_.  Click _Disable inheritance_ and _Remove all inherited permissions from this object_.  Then click _Add_ and _Select a principal_.  In the box _Enter the object name to select_, type everyone and click _Check Names_.  Click _OK_, and under _Basic Permissions_, check _Full control_.  Click _OK_, _Apply_, _OK_.
 <br />
