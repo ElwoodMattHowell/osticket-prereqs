@@ -30,8 +30,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 
-<img src="https://github.com/ElwoodMattHowell/images/blob/main/install-configure-iis.png" height="80%" width="80%" alt="install / configure iis"/>
 
+<p float="left">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/install-configure-iis.png" height="40%" width="40%" alt="install/enable iis"/>
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/iis-homepage.png" height="40%" width="40%" alt="IIS homepage">
+</p>
 
 Our first step is to enable Internet Information Services(IIS) with Common Gateway Interface(CGI).  IIS is a general-purpose web server that runs on Windows.  The CGI element configures default settings for CGI applications on IIS.  To enable, first open the Control Panel and click on _Programs_.  Under _Programs and Features_ click _Turn Windows features on or off_.  Scroll down until you find _Internet Information Services_.  Check the box and then expand IIS by clicking the '+' sign to the left of the box.  Inside IIS, scroll to _World Wide Web Services_, and expand that.  Finally, expand _Application Development Features_, scroll to _CGI_, check the box next to CGI, and click _Okay_.  Once it has finished loading, Internet Information Services and Common Gateway Interface will be enabled.  If you open a web browser and type 127.0.0.1 in the browser, you should now see the home page for Internet Information Services.
 
@@ -68,8 +71,8 @@ Now we have to register PHP from within IIS.  To do this we must open IIs as an 
 <br />
 
 <p float="left">
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/register-php-1.png" height="40%" width="35%" alt="Register PHP">
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/register-php-2.png" height="40%" width="45%" alt="Register PHP">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/osTicket-install-1.png" height="40%" width="45%" alt="Register PHP">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/osTicket-installer.png" height="40%" width="35%" alt="Register PHP">
 </p>
 
 
