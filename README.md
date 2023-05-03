@@ -86,7 +86,7 @@ It is now time to download and install osTicket.  Go to https://osticket.com/dow
 </p>
 
 
-Now that osTicket is installed, we have to rename osTicket\include\ost-sampleconfig.php to osTicket\include\ost-config.php and assign permissions to the file.  Navigate to `C:\inetpub\www.root\osTicket\include`, scroll down to the bottom and rename ost-sampleconfig.php to ost-config.php.  Next, right click on the file and click _Properties_, click through to _Security_, and click _Advanced_.  Click _Disable inheritance_ and _Remove all inherited permissions from this object_.  Then click _Add_ and _Select a principal_.  In the box _Enter the object name to select_, type everyone and click _Check Names_.  Click _OK_, and under _Basic Permissions_, check _Full control_.  Click _OK_, _Apply_, _OK_.
+Note that some extensions in osTicket are not enabled.  Go back to IIS, click through _Sites -> Default Web SIte -> osTicket_.  Double click _PHP Manager_.  Click _Enable or disable an extension_.  Scroll down until you see _php_imap.dll_ and click on it.  Then, in the upper right panel, click _Enable_. Repeat the process for _php_intl.dll_ and _php_opcache.dll_.
 <br />
 
 
